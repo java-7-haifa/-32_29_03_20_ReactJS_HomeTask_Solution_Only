@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-expand navbar-dark bg-navbar">
+    <span class="navbar-brand mb-0 h1">Phone Book</span>
+
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+            </li>
+        </ul>
+        <button class="btn btn-outline-warning my-0">Sign in</button>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-6">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Vasya</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="d-flex justify-content-end" style="background-color: #0d47a1; padding: 10px">
+                <a href="#" class="material-icons mr-2" style="font-size:32px;color:#fff; border: 1px solid #fff; border-radius: 10px;text-decoration: none">done</a>
+                <a href="#" class="material-icons mr-2" style="font-size:32px;color:#fff; border: 1px solid #fff; border-radius: 10px;text-decoration: none">delete</a>
+            </div>
+            <div class="mt-4">
+                <input type="text" class="form-control mb-3" placeholder="Type name">
+                <input type="text" class="form-control mb-3" placeholder="Type last name">
+                <input type="text" class="form-control mb-3" placeholder="Type phone">
+                <input type="text" class="form-control mb-3" placeholder="Type email">
+                <input type="text" class="form-control mb-3" placeholder="Type address">
+                <textarea type="text" class="form-control mb-3" placeholder="Type description"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
